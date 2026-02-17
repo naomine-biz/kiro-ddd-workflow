@@ -1,0 +1,16 @@
+{
+  "packages": {
+    "domain-modeling-guide": {
+      "path": ".kiro/steering/domain-modeling-guide.md",
+      "local_path": "steering/domain-modeling-guide.md"
+    },
+    "hook-domain-modeling-start": {
+      "path": ".kiro/hooks/domain-modeling-start.kiro.hook",
+      "local_path": "hooks/domain-modeling-start.kiro.hook"
+    },
+    "hook-domain-modeling-validate": {
+      "path": ".kiro/hooks/domain-modeling-validate.kiro.hook",
+      "local_path": "hooks/domain-modeling-validate.kiro.hook"
+    }
+  }
+}
