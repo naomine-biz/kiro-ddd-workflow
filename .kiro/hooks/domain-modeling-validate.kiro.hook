@@ -1,0 +1,13 @@
+{
+  "name": "ドメインモデル検証",
+  "version": "1.0.0",
+  "description": "ドメインモデルファイルが編集されたら、矛盾検出と反例生成を実行",
+  "when": {
+    "type": "fileEdited",
+    "patterns": ["*domain-model.md", "*state-transitions.md"]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "#domain-modeling-guide を参照して、編集されたドメインモデルを検証してください：\n\n1. 矛盾検出：モデルが破綻するケースはないか？\n2. 反例生成：不整合が出る入力は？\n3. ピボット耐性：顧客セグメント/価格モデル/投資家タイプの変更に耐えられるか？\n\n問題があれば指摘してください。"
+  }
+}

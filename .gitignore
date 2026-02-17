@@ -1,0 +1,16 @@
+# Kiro workspace files
+.kiro/specs/*/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.log
